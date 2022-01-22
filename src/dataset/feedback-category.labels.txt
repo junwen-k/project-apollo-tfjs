@@ -1,0 +1,3 @@
+insightful
+non-insightful
+low-quality
