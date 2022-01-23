@@ -1,7 +1,5 @@
-import '@tensorflow/tfjs-node';
-
 import * as use from '@tensorflow-models/universal-sentence-encoder';
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-node';
 
 import feedbacksInsightful from './dataset/feedback-category-insightful-training.json';
 import feedbacksLowQuality from './dataset/feedback-category-low-quality-training.json';

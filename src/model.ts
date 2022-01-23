@@ -1,8 +1,6 @@
-import '@tensorflow/tfjs-node';
-
 import * as fs from 'fs-extra';
 
-import * as tf from '@tensorflow/tfjs';
+import * as tf from '@tensorflow/tfjs-node';
 
 export const createModel = (name: string, units = 3) => {
   const model = tf.sequential({
